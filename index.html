@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-info game-tab">
+            <div class="diff-title">Сложность</div>
+            <div class="game-difficulty title">
+                <h2 class="difficulty">Выберите сложность:</h2>
+                <select class="choose-diff">
+                    <option class="diff-option" value="PvP">Игрок против игрока</option>
+                    <option class="diff-option" value="soft">Легкий ИИ</option>
+                </select>
+            </div>
+            <div class="info-player title">
+                <h2 class="player">Ход игрока:</h2>
+                <h2 class="current-player"></h2>
+            </div>
+            <div class="game-actions">
+                <button class="start-btn action-btn">Начать игру</button>
+                <button class="restart-btn action-btn">Начать заново</button>
+            </div>
+        </div>
+        <div class="game-content"></div>
+        <div class="game-score game-tab"></div>
+    </div>
+</body>
+<script src="./src/js/main.js" type="module"></script>
+
+</html>
